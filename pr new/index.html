@@ -3,51 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birmingham Museums</title>
-    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Museum Website</title>
 </head>
 <body>
     <header>
         <nav>
-            <h1>Museo Sans</h1>
-            <button>Menu</button>
+            <ul>
+                <li><a href="#home">Museo Sans</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#mission">Our Mission</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact Now</a></li>
+            </ul>
         </nav>
     </header>
-
     <main>
-        <section class="hero">
-            <div class="label">CONGREVE STREET</div>
-            <h2>Birmingham <span>Museums.</span></h2>
-            <img src="images/image.png" alt="Birmingham Museum">
-            <button class="cta">Get Started <span>&rarr;</span></button>
+        <section class="card" id="birmingham">
+            <div class="tag">CONGREVE STREET</div>
+            <h2>Birmingham Museums.</h2>
+            <img src="https://preview.vwthemesdemo.com/designer-portfolio/wp-content/uploads/sites/7/2023/10/ourpaintingimg4.jpg" alt="Birmingham Museums">
+            <div class="card-footer">
+                <button class="button">Get Started</button>
+                <span class="arrow">→</span>
+            </div>
         </section>
-
-        <section class="art-piece">
-            <div class="label">EUROPEANA</div>
-            <h3>A Woman Slicing <span>Bread.</span></h3>
-            <p>DATE: 1800. INSTITUTION: RIJKSMUSEUM. PROVIDER: RIJKSMUSEUM. PROVIDING COUNTRY: NETHERLANDS. PUBLIC DOMAIN. PHOTO BY EUROPEANA.</p>
-            <img src="images/image.png" alt="A Woman Slicing Bread">
-            <button class="cta">Get Started <span>&rarr;</span></button>
+        <section class="card" id="woman-slicing-bread">
+            <div class="tag">EUROPEANA</div>
+            <h2>A Woman Slicing Bread.</h2>
+            <p>Date: 1800. Institution: Rijksmuseum. Provider: Rijksmuseum. Providing Country: Netherlands. Public Domain. Photo by Europeana.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Een_vrouw_die_brood_snijdt_Rijksmuseum_SK-C-156.jpeg" alt="A Woman Slicing Bread">
+            <div class="card-footer">
+                <button class="button">Get Started</button>
+                <span class="arrow">→</span>
+            </div>
         </section>
-
-        <section class="art-piece">
-            <div class="label">EUROPEANA</div>
-            <h3>Vintage <span>Painting.</span></h3>
-            <img src="images/image.png" alt="Vintage Painting">
-            <button class="cta">Get Started <span>&rarr;</span></button>
+        <section class="card" id="portrait">
+            <div class="tag">EUROPEANA</div>
+            <h2>Portrait.</h2>
+            <p>Portrait of Maritge Claesdr Vooght. Date: 1639. Institution: Rijksmuseum. Provider: Rijksmuseum. Providing Country: Netherlands. Public Domain.</p>
+            <img src="https://commons.m.wikimedia.org/wiki/File:Frans_Hals_-_Portrait_of_a_Woman_-_23.27_-_Detroit_Institute_of_Arts.jpg#/media/File%3AFrans_Hals_-_Portrait_of_an_unknown_woman_with_clasped_hands_and_diadem_cap_1634_-_23.27.jpg" alt="Portrait">
+            <div class="card-footer">
+                <button class="button">Get Started</button>
+                <span class="arrow">→</span>
+            </div>
         </section>
-
-        <section class="art-piece">
-            <div class="label">EUROPEANA</div>
-            <h3>Portrait</h3>
-            <img src="images/image.png" alt="Portrait">
-            <button class="cta">Get Started <span>&rarr;</span></button>
+        <section class="card" id="vintage-painting">
+            <div class="tag">EUROPEANA</div>
+            <h2>Vintage Painting.</h2>
+            <p>Portrait of a Man. Date: 1648. Institution: Rijksmuseum. Provider: Rijksmuseum. Providing Country: Netherlands. Public Domain.</p>
+            <div class="card-footer">
+                <button class="button">Get Started</button>
+                <span class="arrow">→</span>
+            </div>
         </section>
     </main>
-
-    <footer>
-        <p>Public Domain <span>NETHERLANDS</span></p>
-    </footer>
 </body>
 </html>
